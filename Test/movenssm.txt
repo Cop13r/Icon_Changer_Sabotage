@@ -1,0 +1,1 @@
+copy C:\Folder1\nssm-2.24 D:\Folder2\file.txt
