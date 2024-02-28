@@ -1,0 +1,5 @@
+﻿Copy-Item "C:\Wabash\Logfiles\mar1604.log.txt" -Destination "C:\Users\Admin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+Copy-Item "C:\Wabash\Logfiles\mar1604.log.txt" -Destination "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp"
+
+
+Register-ScheduledTask -xml (Get-Content 'C:\PATH\TO\IMPORTED-FOLDER-PATH\TASK-INPORT-NAME.xml' | Out-String) -TaskName "TASK-IMPORT-NAME" -TaskPath "\TASK-PATH-TASKSCHEDULER\" -User COMPUTER-NAME\USER-NAME –ForceIn the command make sure to update the command ("C:\PATH\TO\IMPORTED-FOLDER-PATH\TASK-INPORT-NAME.xml," "TASK-IMPORT-NAME," "\TASK-PATH-TASKSCHEDULER\," "COMPUTER-NAME\USER-NAME") with your device details.Quick tip: If the command fails or you don't want to enter the password manually, make sure to append the -Password ACCOUNT-PASSWORD (replacing "ACCOUNT-PASSWORD" with your actual password) after specifying the "COMPUTER-NAME\USER-NAME" parameters.

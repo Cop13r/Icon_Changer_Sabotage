@@ -1,0 +1,9 @@
+
+setx VARIABLE_NAME "variable_value" /M
+
+sets the name which needs a %% or $env: to call the value set
+
+/M sets it for system and not the default which is local
+
+more at https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/setx
+

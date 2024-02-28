@@ -175,3 +175,37 @@ phonetic alphabet as Task schedule name (Have Fun) (Hotel Alpha Victor Echo Foxt
 
 I hope this takes you longer than a week cause Ive done nothing for the last month (India Hotel Oscar Papa Echo Tango Hotel India Sierra Tango Alpha Kilo Echo Sierra Yankee Oscar Uniform Lima Oscar November Golf Echo Romeo Tango Hotel Alpha November Alpha Whiskey Echo Echo Kilo Charlie Alpha Uniform Sierra Echo India Victor Echo Delta Oscar November Echo November Oscar Tango Hotel India November Golf Foxtrot Oscar Romeo Tango Hotel Echo Lima Alpha Sierra Tango Mike Oscar November Tango Hotel )
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+add to https://gist.github.com/magnetikonline/2217fd95cf15a0324696 to parameter list = gui
+
+App Directory = Startup Directory (App)
+Application = Path (App)
+
+
+https://gist.github.com/magnetikonline/2217fd95cf15a0324696
+
+
+
+
+
+
+https://www.windowscentral.com/how-export-and-import-scheduled-tasks-windows-10
+
+
+
+

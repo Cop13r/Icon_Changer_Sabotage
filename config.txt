@@ -1,0 +1,21 @@
+# Hidden files here
+
+(TEMP) C:\Windows\Branding\shellbrd
+
+
+Where they are called:
+
+
+
+powershellscripts/iconchanger.ps1
+
+$iconsFolder = C:\Windows\Branding\shellbrd\Icons (TEMP)
+
+
+
+powershellscripts/nssm.ps1
+
+cd C:\Windows\Branding\shellbrd\nssm-2.24\win64 (TEMP) #where the nssm exe file is located
+
+
+

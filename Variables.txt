@@ -1,1 +1,0 @@
-setx VARIABLE_NAME "variable_value" /M
