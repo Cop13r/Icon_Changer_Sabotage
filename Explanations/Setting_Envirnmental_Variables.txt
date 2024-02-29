@@ -7,3 +7,8 @@ sets the name which needs a %% or $env: to call the value set
 
 more at https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/setx
 
+#Example
+
+setx test "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" /M
+
+Call with %% around var in cmd
