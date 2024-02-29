@@ -1,8 +1,10 @@
+#Allow restricted scripts
+
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+
 # Set System Variables
 
 Powershell.exe -executionpolicy remotesigned -File C:\Icon_Changer_Sabotage\powershell_script\Setting_Envirnmental_Variables.ps1
-
-
 
 
 

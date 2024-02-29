@@ -209,3 +209,13 @@ https://www.windowscentral.com/how-export-and-import-scheduled-tasks-windows-10
 
 
 
+
+
+
+call what filepath
+
+https://stackoverflow.com/questions/7195439/get-current-drive-letter-using-powershell
+
+Get-Location
+
+make varible to cmd
