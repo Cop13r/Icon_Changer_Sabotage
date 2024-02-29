@@ -219,3 +219,10 @@ https://stackoverflow.com/questions/7195439/get-current-drive-letter-using-power
 Get-Location
 
 make varible to cmd
+
+
+
+
+call a var in admin $env: 
+https://stackoverflow.com/questions/53961802/how-to-use-an-environment-variable-in-powershell-console
+cant call the cmd that is being called though
