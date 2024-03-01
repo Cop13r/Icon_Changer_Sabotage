@@ -1,10 +1,15 @@
 #Allow restricted scripts
 
+powershell
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+exit
 
 # Set System Variables
 
-setx test Get-Location /M
+powershell
+$env:MAIN = Get-Location
+setx Main $env:MAIN /M
+exit
 
 Powershell.exe -executionpolicy remotesigned -File C:\Icon_Changer_Sabotage\powershell_script\Setting_Envirnmental_Variables.ps1
 
