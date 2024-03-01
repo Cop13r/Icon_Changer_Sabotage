@@ -1,19 +1,10 @@
 #Allow restricted scripts
 
-powershell
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted
-exit
+powershell -Command "Set-ExecutionPolicy -ExecutionPolicy Unrestricted"
 
 # Set System Variables
 
-powershell
-$env:MAIN = Get-Location
-setx Main $env:MAIN /M
-exit
-
-Powershell.exe -executionpolicy remotesigned -File C:\Icon_Changer_Sabotage\powershell_script\Setting_Envirnmental_Variables.ps1
-
-
+powershell -Command "$env:MAIN = Get-Location; setx Main $env:MAIN /M"
 
 #Run powershell script that makes task schedule, run
 
